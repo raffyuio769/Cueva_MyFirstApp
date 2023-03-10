@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello this is Raffy's information"
+        android:textColor="@color/premium_orange"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My name is Rafael Luis M. Cueva"
+        android:textColor="@color/silver1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.146"
@@ -37,6 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="18 years old"
+        android:textColor="@color/silver1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.095"
@@ -50,6 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="268dp"
         android:gravity="center"
+        android:textColor="@color/silver1"
         android:text="I'm currently Grade 12 in section Knuth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,13 +66,14 @@
         android:id="@+id/RaffyHobbies"
         android:layout_width="308dp"
         android:layout_height="42dp"
-        android:text="My current hobbies are watching fancams, and going to the gym"
+        android:text="Hobbies: Reading and binge watching kdrama's"
+        android:textColor="@color/silver1"
         android:textAlignment="textStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.291"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/GradeSection"
-        app:layout_constraintVertical_bias="0.063" />
+        app:layout_constraintVertical_bias="0.051" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

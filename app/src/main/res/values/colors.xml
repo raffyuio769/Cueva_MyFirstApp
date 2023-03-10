@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="darkthemeraffu">#3E3E42</color>
+    <color name="premium_orange">#ff9000</color>
+    <color name="silver1">#C0C0C0</color>
+
 </resources>
