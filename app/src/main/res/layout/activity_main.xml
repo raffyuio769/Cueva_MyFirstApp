@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/darkthemeraffu"
     tools:context=".MainActivity">
 
     <TextView
@@ -11,11 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello this is Raffy's information"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.308" />
+        app:layout_constraintVertical_bias="0.302" />
 
     <TextView
         android:id="@+id/NameRaffy"
@@ -24,48 +27,48 @@
         android:text="My name is Rafael Luis M. Cueva"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Intro"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.025" />
 
     <TextView
         android:id="@+id/RaffyAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I'm 18 years old"
+        android:text="18 years old"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/NameRaffy"
-        app:layout_constraintVertical_bias="0.027" />
+        app:layout_constraintVertical_bias="0.031" />
 
     <TextView
         android:id="@+id/GradeSection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="268dp"
-        android:text="I'm currently Grade 12 in section Knuth"
         android:gravity="center"
+        android:text="I'm currently Grade 12 in section Knuth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/RaffyAge"
-        app:layout_constraintVertical_bias="0.073" />
+        app:layout_constraintVertical_bias="0.125" />
 
     <TextView
         android:id="@+id/RaffyHobbies"
         android:layout_width="308dp"
         android:layout_height="42dp"
-        android:gravity="center"
         android:text="My current hobbies are watching fancams, and going to the gym"
+        android:textAlignment="textStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.291"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/GradeSection"
-        app:layout_constraintVertical_bias="0.019" />
+        app:layout_constraintVertical_bias="0.063" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
