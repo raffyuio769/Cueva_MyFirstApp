@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">First_activityRaffy</string>
+    <string name="twentyk">
+        <b>20.0k<b>
+
+    </string>
+    <string name="intro">
+        <b>Hello!!!<b>
+
+    </string>
 </resources>
